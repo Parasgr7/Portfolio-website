@@ -1,611 +1,486 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Title: add your Portfolio websites's title here -->
-    <title>Paras Gaur | Blockchain Developer</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="Paras, blockchain, solidity, engineer, web3, ethereum, nextjs, dapp, contract" />
+  <!-- Title: add your Portfolio websites's title here -->
+  <title>Paras Gaur | Blockchain Developer</title>
 
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="Paras Gaur | Blockchain Developer" />
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="Paras, blockchain, solidity, engineer, web3, ethereum, nextjs, dapp, contract" />
 
-    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
-    <link rel="icon" type="image/png" href="https://paras-portfolio-flame.vercel.app/assets/icon.png" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="Paras Gaur | Blockchain Developer" />
 
-    <!-- Add your primary-theme color for the value of content -->
-    <meta name="theme-color" content="#36d1dc" />
+  <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+  <link rel="icon" type="image/png" href="https://paras-portfolio-flame.vercel.app/assets/icon.png" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <!-- Fill content with the URL of this portfolio you'll host -->
-    <meta property="og:url" content="https://paras-portfolio-flame.vercel.app/" />
-    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
-    <meta property="og:title" content="Paras Gaur | Blockchain Developer" />
-    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
-    <meta property="og:description" content="Software Engineer Portfolio Website | Web3 Developer" />
-    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+  <!-- Add your primary-theme color for the value of content -->
+  <meta name="theme-color" content="#36d1dc" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <!-- Fill content with the URL of this portfolio you'll host -->
+  <meta property="og:url" content="https://paras-portfolio-flame.vercel.app/" />
+  <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+  <meta property="og:title" content="Paras Gaur | Blockchain Developer" />
+  <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+  <meta property="og:description" content="Software Engineer Portfolio Website | Web3 Developer" />
+  <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
       so that a thumbnail image of your portfolio is shown while shared on other platform -->
-    <meta
-      property="og:image"
-      content="https://paras-portfolio-flame.vercel.app/assets/thumbnail.png"
-    />
+  <meta property="og:image" content="https://paras-portfolio-flame.vercel.app/assets/thumbnail.png" />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <!-- Again fill content attr with the URL of this portfolio you'll host -->
-    <meta property="twitter:url" content="https://paras-portfolio-flame.vercel.app/" />
-    <!-- Recommended to use the same text used within <title> element -->
-    <meta property="twitter:title" content="Paras Gaur | Blockchain Developer" />
-    <!-- short description that shows up while your portfolio is shared -->
-    <meta
-      property="twitter:description"
-      content="Software Engineer Portfolio Website | Web3 Developer"
-    />
-    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
-    <meta
-      property="twitter:image"
-      content="https://paras-portfolio-flame.vercel.app/assets/thumbnail.png"
-    />
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <!-- Again fill content attr with the URL of this portfolio you'll host -->
+  <meta property="twitter:url" content="https://paras-portfolio-flame.vercel.app/" />
+  <!-- Recommended to use the same text used within <title> element -->
+  <meta property="twitter:title" content="Paras Gaur | Blockchain Developer" />
+  <!-- short description that shows up while your portfolio is shared -->
+  <meta property="twitter:description" content="Software Engineer Portfolio Website | Web3 Developer" />
+  <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+  <meta property="twitter:image" content="https://paras-portfolio-flame.vercel.app/assets/thumbnail.png" />
 
-    <!-- link tags -->
-    <link rel="stylesheet" href="./css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="./javascript/scrollreveal.min.js"></script>
-    <script
-      defer
-      type="text/javascript"
-      src="./javascript/scrollveal.js"
-    ></script>
+  <!-- link tags -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="./javascript/scrollreveal.min.js"></script>
+  <script defer type="text/javascript" src="./javascript/scrollveal.js"></script>
 
-    <!-- Remove Google Analytics once you have your portfolio website set-up -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+  <!-- Remove Google Analytics once you have your portfolio website set-up -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-      gtag("config", "UA-122228201-4");
-    </script>
-    <!-- End of Google Analytics -->
-  </head>
-  <body>
-    <!-- Hero Section -->
-    <div id="hero">
-      <section class="container">
-        <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Paras Gaur</span>
-          <br />
-          I'm a Blockchain Developer.
-        </h1>
-        <p class="hero-cta">
-          <a class="cta-btn cta-btn--hero" href="https://www.linkedin.com/in/paras-gaur/" target="_blank">Get in touch</a>
-        </p>
-      </section>
-      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
-        <div class="scroll-down"></div
-      ></a>
+    gtag("config", "UA-122228201-4");
+  </script>
+  <!-- End of Google Analytics -->
+</head>
+
+<body>
+  <!-- Hero Section -->
+  <div id="hero">
+    <section class="container">
+      <h1 class="hero-title">
+        Hi, my name is <span class="text-color-main name">Paras Gaur</span>
+        <br />
+        I'm a Blockchain Developer.
+      </h1>
+      <p class="hero-cta">
+        <a class="cta-btn cta-btn--hero" href="https://www.linkedin.com/in/paras-gaur/" target="_blank">Get in touch</a>
+      </p>
+    </section>
+    <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+      <div class="scroll-down"></div>
+    </a>
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="row about-wrapper">
+        <div class="image_wrapper">
+          <div class="about-wrapper__image">
+            <img class="img-fluid" src="./assets/paras.jpg" alt="Profile Image" />
+          </div>
+        </div>
+        <div class="about-wrapper__info">
+          <p class="about-wrapper__info-text">
+            2yr+ Experienced Software Developer professional with good leadership and management skills. I am a
+            passionate blockchain developer
+            with good experience in building, deploying & testing end-to-end decentralized blockchain applications.
+          </p>
+          <p class="about-wrapper__info-text">
+            I am a quick learner with great initiative skills and flexible to new challenges & technologies. I am an
+            enthusiastic, self-motivated
+            and big picture oriented individual who comes up with innovative solution for challenging problems.
+
+
+
+          </p>
+          <span class="about-wrapper__cta">
+            <a href="https://drive.google.com/file/d/14PfCluGaDT6Ffa307jE47_58NvlErh5b/view" target="_blank"
+              class="cta-btn cta-btn--resume">View Resume</a>
+          </span>
+        </div>
+      </div>
     </div>
-    <!-- /END Hero Section -->
+  </section>
+  <!-- /END About Section -->
 
-    <!-- About Section -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <div class="row about-wrapper">
-          <div class="image_wrapper">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid"
-                src="./assets/paras.jpg"
-                alt="Profile Image"
-              />
-            </div>
-          </div>
-          <div class="about-wrapper__info">
-            <p class="about-wrapper__info-text">
-             2yr+ Experienced Software Developer professional with good leadership and management skills. I am a passionate blockchain developer
-             with good experience in building, deploying & testing end-to-end decentralized blockchain applications.
+  <!--Projects Section-->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">My Projects</h2>
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">DeFi Lending Borrowing DApp</h3>
+            <p class="project-wrapper__text-info">
+              DeFi Lending platform which lets you lend, borrow crypto assets and helps you earn some passive income as
+              interest on your deposits.
             </p>
-            <p class="about-wrapper__info-text">
-              I am a quick learner with great initiative skills and flexible to new challenges & technologies. I am an enthusiastic, self-motivated
-              and big picture oriented individual who comes up with innovative solution for challenging problems.
-
-
-
+            <p class="project-wrapper__text-info">
+              Build ethereum smart contract on Solidity and tested dApp with Truffle framework. Deployed app on Ethereum
+              Kovan Network.
             </p>
-            <span class="about-wrapper__cta">
-              <a href="https://drive.google.com/file/d/14PfCluGaDT6Ffa307jE47_58NvlErh5b/view" target="_blank" class="cta-btn cta-btn--resume">View Resume</a>
-            </span>
+            <div class="project-wrapper__text-btns">
+              <a href="https://defi-blockchain.vercel.app/" target="_blank" rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects">See Live</a>
+              <a href="https://github.com/Parasgr7/Defi-Lending-Borrowing" target="_blank"
+                class="cta-btn text-color-main">Source Code</a>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
 
-    <!--Projects Section-->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">My Projects</h2>
-
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">DeFi Lending Borrowing DApp</h3>
-              <p class="project-wrapper__text-info">
-                DeFi Lending platform which lets you lend, borrow crypto assets and helps you earn some passive income as interest on your deposits.
-              </p>
-              <p class="project-wrapper__text-info">
-                Build ethereum smart contract on Solidity and tested dApp with Truffle framework. Deployed app on Ethereum Kovan Network.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="https://defi-blockchain.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="https://github.com/Parasgr7/Defi-Lending-Borrowing" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <iframe
+                  src="https://player.vimeo.com/video/253989945?h=c6db007fe5&color=ef0800&title=0&byline=0&portrait=0"
+                  width="100%" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                  allowfullscreen></iframe>
               </div>
-            </div>
+            </a>
 
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <iframe src="https://player.vimeo.com/video/253989945?h=c6db007fe5&color=ef0800&title=0&byline=0&portrait=0" 
-                  width="100%" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                </div>
-              </a>
-              
-              
-            </div>
-          </article>
-          <!-- /END Project -->
 
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Multi-Signature Wallet</h3>
-              <p class="project-wrapper__text-info">
-                Designed and build a digital crypto wallet with multisignature addresses which requires 
-                more than one private key to sign and authorize a crypto transaction.
-              </p>
-              <p class="project-wrapper__text-info">
-                Implementation of factory contract so what a user can create multiple wallets with multiple owners.
-                Deployed app on Ethereum Sepolia Network.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="https://multisig-wallet-sigma.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="https://github.com/Parasgr7/multisig-wallet" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
+          </div>
+        </article>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Multi-Signature Wallet</h3>
+            <p class="project-wrapper__text-info">
+              Designed and build a digital crypto wallet with multisignature addresses which requires
+              more than one private key to sign and authorize a crypto transaction.
+            </p>
+            <p class="project-wrapper__text-info">
+              Implementation of factory contract so what a user can create multiple wallets with multiple owners.
+              Deployed app on Ethereum Sepolia Network.
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a href="https://multisig-wallet-sigma.vercel.app/" target="_blank" rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects">See Live</a>
+              <a href="https://github.com/Parasgr7/multisig-wallet" target="_blank"
+                class="cta-btn text-color-main">Source Code</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <iframe
+                  src="https://player.vimeo.com/video/253989945?h=c6db007fe5&color=ef0800&title=0&byline=0&portrait=0"
+                  width="100%" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                  allowfullscreen></iframe>
               </div>
-            </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
 
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <iframe src="https://player.vimeo.com/video/253989945?h=c6db007fe5&color=ef0800&title=0&byline=0&portrait=0" 
-                  width="100%" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                </div>
-              </a>
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Decentralised E-Voting App</h3>
+            <p class="project-wrapper__text-info">
+              Developed a smart voting contract which will enhance shortcomings in conventional voting process by
+              bringing transparency, enhanced security & protecting the anonymity of voter’s identity.
+            </p>
+            <p class="project-wrapper__text-info">
+              In this e-voting project Admin can start and end the election process and finally winner receive prize in
+              Ether.
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a href="https://parasgr7.github.io/e-Voting-dApp/" target="_blank" rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects">See Live</a>
+              <a href="https://github.com/Parasgr7/e-Voting-dApp" target="_blank" class="cta-btn text-color-main">Source
+                Code</a>
             </div>
-          </article>
-          <!-- /END Project -->
+          </div>
 
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Decentralised E-Voting App</h3>
-              <p class="project-wrapper__text-info">
-                Developed a smart voting contract which will enhance shortcomings in conventional voting process by 
-                bringing transparency, enhanced security & protecting the anonymity of voter’s identity.
-              </p>
-              <p class="project-wrapper__text-info">
-                In this e-voting project Admin can start and end the election process and finally winner receive prize in Ether.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="https://parasgr7.github.io/e-Voting-dApp/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="https://github.com/Parasgr7/e-Voting-dApp" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="./assets/project.png" class="img-fluid" alt="Project Image" />
               </div>
-            </div>
-
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/project.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- /END Project -->
-        </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
       </div>
-    </section>
-    <!-- End Projects Section -->
+    </div>
+  </section>
+  <!-- End Projects Section -->
 
-    <!-- Experience Section -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Experience</h2>
-        <div class="contact-wrapper">
-          <div class="exp-container">
+  <!-- Experience Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="contact-wrapper">
+        <div class="exp-container">
 
-            <div class="timeline-block timeline-block-left">
-               <div class="marker"></div>
-               <div class="timeline-content">
-                  <h3>Software Engineering Lead</h3>
-                  <span><a href="#" rel="noopener noreferrer">1oh1</a> [Oct 2019 - Dec 2021]<a href="#" rel="noopener noreferrer">@</a></span>
-                  <p>
-                    Build an Online skill-share education platform that allows for live, one-on-one video conferencing interaction between users
-                    <ul class="list">
-                      <li>Responsible for Product Planning, Development & Database Designing of the whole app.</li>
-                      <li>Developed Real-time messaging, Video Calling (Screen Sharing), a Notification system</li>
-                      <li>Responsible for setting-up Payment Gateway (Stripe)</li>
-                      <li>Responsible for deployment of app in AWS cloud and completed automated deployment using AWS Code-Deploy</li>
-                      <li>Worked on Ruby-on-Rails & experienced with Message Brokers (Redis) for backend jobs.</li>
-                      <li>Lead a team of 3 members with Scrum Management.</li>
-                    </ul>
-                  </p>
-               </div>
-            </div>  
-            <div class="timeline-block timeline-block-right">
-               <div class="marker"></div>
-               <div class="timeline-content">
-                  <h3>Full Stack Engineer Intern</h3>
-                  <span><a href="https://holidale.com/" class="website" target="_blank" rel="noopener noreferrer">@Holidale Inc.</a> [Jul 2018 - Feb 2019]</span>
-                  <p>Played major role in Mobile app development & tackling website issues</p>
-                  <ul class="list">
-                    <li>Full stack developer (Ruby on Rails).</li>
-                    <li>Worked on Business logics for the company.</li>
-                    <li>Worked on Marketing KPI to get business insights</li>
-                    <li>Build Maintenance App (Android/iOS) using React Native for employees.</li>
-                    <li>Played major role in SEO implementation.(Off page and On page).</li>
-                  </ul>                  
-               </div>
+          <div class="timeline-block timeline-block-left">
+            <div class="marker"></div>
+            <div class="timeline-content">
+              <h3>Software Engineering Lead</h3>
+              <span><a href="#" rel="noopener noreferrer">1oh1</a> [Oct 2019 - Dec 2021]</span>
+              <p>
+                Build an Online skill-share education platform that allows for live, one-on-one video conferencing
+                interaction between users
+              <ul class="list">
+                <li>Responsible for Product Planning, Development & Database Designing of the whole app.</li>
+                <li>Developed Real-time messaging, Video Calling (Screen Sharing), a Notification system</li>
+                <li>Responsible for setting-up Payment Gateway (Stripe)</li>
+                <li>Responsible for deployment of app in AWS cloud and completed automated deployment using AWS
+                  Code-Deploy</li>
+                <li>Worked on Ruby-on-Rails & experienced with Message Brokers (Redis) for backend jobs.</li>
+                <li>Lead a team of 3 members with Scrum Management.</li>
+              </ul>
+              </p>
             </div>
-         
-            <div class="timeline-block timeline-block-left">
-               <div class="marker"></div>
-               <div class="timeline-content">
-                  <h3>Deep Learning & Computer Vision Intern</h3>
-                  <span><a href="#" rel="noopener noreferrer">Columbus AI</a> [Feb 2018 - Oct 2018]<a href="#" rel="noopener noreferrer">@</a></span>
-                  <p>Worked on Self-Driving Car Project</p>
-                  <ul class="list">
-                    <li>
-                      Hands on experience in working with Nvidia-DrivePX2 (World's First AI Supercomputer for Self-Driving Cars)
-                    </li>
-                    <li>
-                      Deep learning with CUDA and Tensorflow for Self-Driving
-                    </li>
-                    <li>
-                      Radar Communication Protocol Reversing
-                    </li>
-                    <li>
-                      Object detection (implemented YOLO and SSD) with distance calculation 
-                    </li>
-                    <li>
-                      Lane Detection using Udacity course
-                    </li>
-                  </ul>
-               </div>
+          </div>
+          <div class="timeline-block timeline-block-right">
+            <div class="marker"></div>
+            <div class="timeline-content">
+              <h3>Full Stack Engineer Intern</h3>
+              <span><a href="https://holidale.com/" class="website" target="_blank" rel="noopener noreferrer">Holidale
+                  Inc.</a> [Jul 2018 - Feb 2019]</span>
+              <p>Played major role in Mobile app development & tackling website issues</p>
+              <ul class="list">
+                <li>Full stack developer (Ruby on Rails).</li>
+                <li>Worked on Business logics for the company.</li>
+                <li>Worked on Marketing KPI to get business insights</li>
+                <li>Build Maintenance App (Android/iOS) using React Native for employees.</li>
+                <li>Played major role in SEO implementation.(Off page and On page).</li>
+              </ul>
             </div>
-         
-            <div class="timeline-block timeline-block-right">
-               <div class="marker"></div>
-               <div class="timeline-content">
-                  <h3>MEAN Stack Developer Intern</h3>
-                  <span><a href="https://www.storydigital.in/" target="_blank" rel="noopener noreferrer">@Story Digital</a> [Jun 2017 - Aug 2017]</span>
-                  <p>Worked here as MEAN stack developer</p>
-                  <ul class="list">
-                    <li>
-                      Developed dashboard for company
-                    </li>
-                    <li>
-                      Worked on real time API's and their integration in the product for company
-                    </li>
-                    <li>
-                      Front End developement using Angular 2 & Nodejs Backend
-                    </li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-        </div>
-      </div>
-    </section>
-    <!-- END Experience Section -->
+          </div>
 
-    <!-- TechStack Section -->
-    <section id="skill">
-      <div class="container">
-        <h2 class="section-title dark-blue-text">Tech Stack</h2>
-        <div class="skill-wrapper">
-          <p class="skill-wrapper__text">Libraries</p>
-          <div class="float-container">
-            <div class="float-child">
-              <img
-                src="./assets/ethereum.svg"
-                alt="Project Image"
-                class="img-skill"
-              >
-              <p>Ethereum</p>
+          <div class="timeline-block timeline-block-left">
+            <div class="marker"></div>
+            <div class="timeline-content">
+              <h3>Deep Learning & Computer Vision Intern</h3>
+              <span><a href="#" rel="noopener noreferrer">Columbus AI</a> [Feb 2018 - Oct 2018]</span>
+              <p>Worked on Self-Driving Car Project</p>
+              <ul class="list">
+                <li>
+                  Hands on experience in working with Nvidia-DrivePX2 (World's First AI Supercomputer for Self-Driving
+                  Cars)
+                </li>
+                <li>
+                  Deep learning with CUDA and Tensorflow for Self-Driving
+                </li>
+                <li>
+                  Radar Communication Protocol Reversing
+                </li>
+                <li>
+                  Object detection (implemented YOLO and SSD) with distance calculation
+                </li>
+                <li>
+                  Lane Detection using Udacity course
+                </li>
+              </ul>
             </div>
-            
-            <div class="float-child">
-              <img
-                src="./assets/solidity.svg"
-                alt="Project Image"
-                class="img-skill"
-              >
-              <p>Solidity</p>
-            </div>
-            <div class="float-child">
-              <img
-                src="./assets/web3.svg"
-                alt="Project Image"
-                class="img-skill"
-              >
-              <p>Web3.js</p>
-            </div>
-            <div class="float-child">
-              <img
-                src="./assets/open_zeppelin.svg"
-                alt="Project Image"
-                class="img-skill"
-              >
-              <p>Open Zeppelin</p>
-            </div>
-            <div class="float-child">
-              <img
-                src="./assets/ganache.svg"
-                alt="Project Image"
-                class="img-skill"
-              >
-              <p>Ganache</p>
-            </div>
-            <div class="float-child">
-              <img
-                src="./assets/chainlink.svg"
-                alt="Project Image"
-                class="img-skill"
-              >
-              <p>Chainlink</p>
-            </div>
-            <div class="float-child">
-              <img
-                src="./assets/ipfs.svg"
-                alt="Project Image"
-                class="img-skill"
-              >
-              <p>IPFS</p>
-            </div>
-            <div class="float-child">
-              <img
-                src="./assets/react.png"
-                alt="Project Image"
-                class="img-skill"
-              >
-              <p>React</p>
-            </div>
-            <div class="float-child">
-              <img
-                src="./assets/javascript.svg"
-                alt="Project Image"
-                class="img-skill"
-              >
-              <p>Javascript</p>
-            </div>
-            <div class="float-child">
-              <img
-                src="./assets/tailwind.svg"
-                alt="Project Image"
-                class="img-skill"
-              >
-              <p>Tailwind</p>
-            </div>
-            <div class="float-child">
-              <img
-                src="./assets/python.svg"
-                alt="Project Image"
-                class="img-skill"
-              >
-              <p>Python</p>
-            </div> 
           </div>
-            
-        </div>
-        <div class="skill-wrapper">
-          <p class="skill-wrapper__text">Framework</p>
-          <div class="float-container">
-            <div class="float-child">
-              <img
-                src="./assets/truffle.png"
-                class="img-skill"
-                alt="Project Image"
-              />
-              <p>Truffle</p>
-            </div> 
-            <div class="float-child">
-              <img
-                src="./assets/nextjs.svg"
-                class="img-skill"
-                alt="Project Image"
-              />
-              <p>NextJs</p>
-            </div> 
-            <div class="float-child">
-              <img
-                src="./assets/rails.png"
-                class="img-skill"
-                alt="Project Image"
-              />
-              <p>Ruby on Rails</p>
-            </div> 
-            <div class="float-child">
-              <img
-                src="./assets/nodejs.png"
-                class="img-skill"
-                alt="Project Image"
-              />
-              <p>NodeJs</p>
-            </div> 
-          </div>
-        </div>
-        <div class="skill-wrapper">
-          <p class="skill-wrapper__text">Cloud Services & Database</p>
-          <div class="float-container">
-            <div class="float-child">
-              <img
-                src="./assets/aws.png"
-                class="img-skill"
-                alt="Project Image"
-              />
-              <p>AWS</p>
-            </div> 
-            <div class="float-child">
-              <img
-                src="./assets/heroku.png"
-                class="img-skill"
-                alt="Project Image"
-              />
-              <p>Heroku</p>
-            </div> 
-            <div class="float-child">
-              <img
-                src="./assets/mysql.png"
-                class="img-skill"
-                alt="Project Image"
-              />
-              <p>MySql</p>
-            </div> 
-            <div class="float-child">
-              <img
-                src="./assets/mongo.png"
-                class="img-skill"
-                alt="Project Image"
-              />
-              <p>MongoDB</p>
-            </div> 
-          </div>
-        </div>
-        <div class="skill-wrapper">
-          <p class="skill-wrapper__text">Version Control</p>
-          <div class="float-container">
-            <div class="float-child">
-              <img
-                src="./assets/bitbucket.png"
-                class="img-skill"
-                alt="Project Image"
-              />
-              <p>BitBucket</p>
-            </div> 
-            <div class="float-child">
-              <img
-                src="./assets/git.png"
-                class="img-skill"
-                alt="Project Image"
-              />
-              <p>Git</p>
-            </div> 
+
+          <div class="timeline-block timeline-block-right">
+            <div class="marker"></div>
+            <div class="timeline-content">
+              <h3>MEAN Stack Developer Intern</h3>
+              <span><a href="https://www.storydigital.in/" target="_blank" rel="noopener noreferrer">Story Digital</a>
+                [Jun 2017 - Aug 2017]</span>
+              <p>Worked here as MEAN stack developer</p>
+              <ul class="list">
+                <li>
+                  Developed dashboard for company
+                </li>
+                <li>
+                  Worked on real time API's and their integration in the product for company
+                </li>
+                <li>
+                  Front End developement using Angular 2 & Nodejs Backend
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- END Contact Section -->
+    </div>
+  </section>
+  <!-- END Experience Section -->
 
-    <!-- Footer Section -->
-    <footer class="footer">
-      <div class="container">
-        <a href="#hero" class="back-to-top" aria-label="go back to top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+  <!-- TechStack Section -->
+  <section id="skill">
+    <div class="container">
+      <h2 class="section-title dark-blue-text">Tech Stack</h2>
+      <div class="skill-wrapper">
+        <p class="skill-wrapper__text">Blockchain</p>
+        <div class="float-container">
+
+          <div class="float-child">
+            <img src="./assets/ethereum.svg" alt="Project Image" class="img-skill">
+            <p>Ethereum</p>
+          </div>
+          <div class="float-child">
+            <img src="./assets/solidity.svg" alt="Project Image" class="img-skill">
+            <p>Solidity</p>
+          </div>
+          <div class="float-child">
+            <img src="./assets/truffle.png" class="img-skill" alt="Project Image" />
+            <p>Truffle</p>
+          </div>
+          <div class="float-child">
+            <img src="./assets/web3.svg" alt="Project Image" class="img-skill">
+            <p>Web3.js</p>
+          </div>
+          <div class="float-child">
+            <img src="./assets/open_zeppelin.svg" alt="Project Image" class="img-skill">
+            <p>Open Zeppelin</p>
+          </div>
+          <div class="float-child">
+            <img src="./assets/ganache.svg" alt="Project Image" class="img-skill">
+            <p>Ganache</p>
+          </div>
+          <div class="float-child">
+            <img src="./assets/chainlink.svg" alt="Project Image" class="img-skill">
+            <p>Chainlink</p>
+          </div>
+          <div class="float-child">
+            <img src="./assets/ipfs.svg" alt="Project Image" class="img-skill">
+            <p>IPFS</p>
+          </div>
+          <div class="float-child">
+            <img src="./assets/metamask.png" alt="Project Image" class="img-skill">
+            <p>Metamask</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="skill-wrapper">
+        <p class="skill-wrapper__text">Frontend</p>
+        <div class="float-container">
+
+          <div class="float-child">
+            <img src="./assets/react.png" alt="Project Image" class="img-skill">
+            <p>React</p>
+          </div>
+          <div class="float-child">
+            <img src="./assets/javascript.svg" alt="Project Image" class="img-skill">
+            <p>Javascript</p>
+          </div>
+          <div class="float-child">
+            <img src="./assets/tailwind.svg" alt="Project Image" class="img-skill">
+            <p>Tailwind</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="skill-wrapper">
+        <p class="skill-wrapper__text">Backend</p>
+        <div class="float-container">
+
+          <div class="float-child">
+            <img src="./assets/nextjs.svg" class="img-skill" alt="Project Image" />
+            <p>NextJs</p>
+          </div>
+          <div class="float-child">
+            <img src="./assets/rails.png" class="img-skill" alt="Project Image" />
+            <p>Ruby on Rails</p>
+          </div>
+          <div class="float-child">
+            <img src="./assets/nodejs.png" class="img-skill" alt="Project Image" />
+            <p>NodeJs</p>
+          </div>
+        </div>
+      </div>
+      <div class="skill-wrapper">
+        <p class="skill-wrapper__text">Cloud Services & Database</p>
+        <div class="float-container">
+          <div class="float-child">
+            <img src="./assets/aws.png" class="img-skill" alt="Project Image" />
+            <p>AWS</p>
+          </div>
+          <div class="float-child">
+            <img src="./assets/heroku.png" class="img-skill" alt="Project Image" />
+            <p>Heroku</p>
+          </div>
+          <div class="float-child">
+            <img src="./assets/mysql.png" class="img-skill" alt="Project Image" />
+            <p>MySql</p>
+          </div>
+          <div class="float-child">
+            <img src="./assets/mongo.png" class="img-skill" alt="Project Image" />
+            <p>MongoDB</p>
+          </div>
+        </div>
+      </div>
+      <div class="skill-wrapper">
+        <p class="skill-wrapper__text">Version Control</p>
+        <div class="float-container">
+          <div class="float-child">
+            <img src="./assets/bitbucket.png" class="img-skill" alt="Project Image" />
+            <p>BitBucket</p>
+          </div>
+          <div class="float-child">
+            <img src="./assets/git.png" class="img-skill" alt="Project Image" />
+            <p>Git</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END Contact Section -->
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#hero" class="back-to-top" aria-label="go back to top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="https://twitter.com/pg568t" target="_blank" rel="noopener noreferrer" aria-label="twitter">
+          <i class="fa fa-twitter"></i>
         </a>
-        <div class="social-links">
-          <a
-            href="https://twitter.com/pg568t"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="twitter"
-          >
-            <i class="fa fa-twitter"></i>
-          </a>
-          <a 
-            href="mailto:parasgr484@gmail.com" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            aria-label="gmail">
-            <i class="fa fa-google"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/paras-gaur/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="linkedin"
-          >
-            <i class="fa fa-linkedin"></i>
-          </a>
-          <a
-            href="https://github.com/Parasgr7/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="github"
-          >
-            <i class="fa fa-github"></i>
-          </a>
-        </div>
-        <hr />
-        <p class="footer__text">
-          &copy; <span id="year"></span> - Developed by
-          <a
-            href="https://github.com/Parasgr7/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Paras Gaur</a
-          >. <br />Made with &hearts;
-        </p>
+        <a href="mailto:parasgr484@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="gmail">
+          <i class="fa fa-google"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/paras-gaur/" target="_blank" rel="noopener noreferrer"
+          aria-label="linkedin">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Parasgr7/" target="_blank" rel="noopener noreferrer" aria-label="github">
+          <i class="fa fa-github"></i>
+        </a>
       </div>
-    </footer>
-    <!-- END Footer Section -->
+      <hr />
+      <p class="footer__text">
+        &copy; <span id="year"></span> - Developed by
+        <a href="https://github.com/Parasgr7/" target="_blank" rel="noopener noreferrer">Paras Gaur</a>. <br />Made with
+        &hearts;
+      </p>
+    </div>
+  </footer>
+  <!-- END Footer Section -->
 
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-    <script src="./javascript/vanilla-tilt.min.js"></script>
-    <script type="text/javascript" src="./javascript/valtilt.js"></script>
-  </body>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="./javascript/vanilla-tilt.min.js"></script>
+  <script type="text/javascript" src="./javascript/valtilt.js"></script>
+</body>
+
 </html>

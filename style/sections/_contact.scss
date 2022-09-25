@@ -75,10 +75,12 @@
  
  .timeline-block-right {
     float: right;
+    text-align: left;
  }
  
  .timeline-block-left {
     float: left;
+    text-align: right;
     direction: rtl;
  }
  
@@ -107,7 +109,15 @@
  .timeline-content span {
     font-size: 18px;
     color: $white-color;
+    display: block;
  }
+
+ .timeline-content a {
+   font-size: 18px;
+   font-weight: 600;
+   color: $white-color;
+   display: block;
+}
  
  .timeline-content p {
     font-size: 17px;
@@ -124,6 +134,7 @@
    word-spacing: 1px;
    color: $dark-blue-text;
    direction: ltr;
+   list-style-type: disclosure-closed;
 }
 .timeline-content .list{
    text-align: justify ;

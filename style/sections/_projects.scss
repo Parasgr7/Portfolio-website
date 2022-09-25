@@ -8,7 +8,7 @@
     padding-top: 5rem;
   }
   @include respond(phone) {
-    padding-bottom: 1px;
+    padding-bottom: 5rem;
   }
   .project-wrapper {
     margin-bottom: 15rem;
@@ -73,14 +73,11 @@
           border-radius: 2px;
         }
         .iframe{
-          height: 360px;
-          @include respond(phone) {
-
-          }
+          height: 360px;    
         }
         @include respond(phone) {
           box-shadow: none;
-          margin-bottom: 3.2rem;
+          margin: -2rem;
           transform: none;
         }
       }
